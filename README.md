@@ -1,5 +1,6 @@
 # python-ftp-client
 An ftp client written in python 2.7 without using libraries
+Still a work in progress though..
 
 # Instructions:	
 
