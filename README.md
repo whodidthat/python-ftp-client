@@ -1,41 +1,40 @@
 # python-ftp-client
 An ftp client written in python 2.7 without using libraries
 
-#########################################################
-#Compiling instructions: python clientftp.py	        	#
-#Running instructions: myftp <server-name>		          #
-#########################################################
+# Instructions:	
 
-#########################################################
-#		                Instructions:			                  #
-#########################################################
+Compiling instructions: python clientftp.py	        	
+Running instructions: myftp <server-name>		          
 
 
-##User will get prompted for a username and password.
-
-#########################################################
-#		                  COMMANDS: 	(so far)             	#
-#########################################################
-
-#RFC-959 Section 4.1 FTP COMMANDS 
+		                  
 
 
-#change directory in the remote server
+User will get prompted for a username and password.
 
-cd <remote-path> 
+### COMMANDS: 	
+so far are...       
 
-#download file remotely to your local machine
 
-get <remote-file>
+## RFC-959 Section 4.1 FTP COMMANDS 
 
-#upload a file to the remote server with the same file name
 
-put <local-file>
+to change directory in the remote server
 
-#delete a remote file
+> cd <remote-path> 
 
-delete <remote-file>
+download file remotely to your local machine
 
-#quits the ftp client
+> get <remote-file>
 
-quit
+upload a file to the remote server with the same file name
+
+> put <local-file>
+
+delete a remote file
+
+> delete <remote-file>
+
+quits the ftp client
+
+> quit
